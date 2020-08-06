@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL maintainer="fgc26 - fgceliberti@gmail.com"
+LABEL maintainer="fgceliberti@gmail.com"
 
 RUN yum -y install epel-release
 RUN yum -y update
